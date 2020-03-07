@@ -1,6 +1,8 @@
 # Vault + Docker
 
-Run [Vault](https://www.vaultproject.io/) in a Docker container.
+Run [Vault](https://www.vaultproject.io/) in a Docker container.  
+
+Requires Vault CLI.
 
 ## Installation
 
