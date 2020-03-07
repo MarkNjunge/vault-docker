@@ -1,0 +1,11 @@
+version: "3"
+services:
+  vault:
+    image: marknjunge/vault
+    container_name: vault
+    build: .
+    cap_add:
+      - IPC_LOCK
+    restart: unless-stopped
+    ports:
+      - "8200:8200"
